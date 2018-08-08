@@ -1,24 +1,27 @@
 package mythremote;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import mythapi.frontend.*;
 import javafx.event.*;
 import javafx.scene.control.*;
 
 import javax.annotation.Resource;
 import javax.swing.*;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.Inet4Address;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.UnknownHostException;
+import java.util.Properties;
 import java.util.ResourceBundle;
 
 public class Controller {
     @FXML private TextField textField_Host;
     @FXML private TextField textField_Port;
     @FXML private TextArea textArea_Status;
-
-
 
     public void TextFieldHost_OnInputMethodTextChange(ActionEvent event)
     {

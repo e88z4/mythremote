@@ -31,8 +31,8 @@
          <children>
             <Label text="Host" />
             <Label text="Port" GridPane.rowIndex="1" />
-            <TextField fx:id="textField_Port" prefHeight="26.0" prefWidth="230.0" text="6547" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="textField_Host" onInputMethodTextChanged="#TextFieldPort_OnInputMethodTextChange" prefHeight="26.0" prefWidth="230.0" text="localhost" GridPane.columnIndex="1" />
+            <TextField fx:id="textField_Port" prefHeight="26.0" prefWidth="230.0" text="%port" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="textField_Host" onInputMethodTextChanged="#TextFieldPort_OnInputMethodTextChange" prefHeight="26.0" prefWidth="230.0" text="%server" GridPane.columnIndex="1" />
          </children>
       </GridPane>
       <GridPane GridPane.rowIndex="1">
